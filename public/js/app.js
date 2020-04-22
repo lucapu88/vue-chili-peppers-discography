@@ -1919,6 +1919,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['cd'] //per passare elementi da un componente all'altro (in questo caso mi passo il singolo cd che è all'interno dell'array 'cds' ciclato)
 
@@ -1975,7 +1976,7 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_MusicHeader__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/MusicHeader */ "./resources/js/components/MusicHeader.vue");
-/* harmony import */ var _components_MusicCdsContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MusicCdsContainer */ "./resources/js/components/MusicCdsContainer.vue");
+/* harmony import */ var _components_MusicCdsContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MusicCdsContainer */ "./resources/js/components/MusicCdsContainer.vue");
 //
 //
 //
@@ -1988,7 +1989,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     MusicHeader: _components_MusicHeader__WEBPACK_IMPORTED_MODULE_0__["default"],
-    MusicCdsContainer: _components_MusicCdsContainer__WEBPACK_IMPORTED_MODULE_2__["default"]
+    MusicCdsContainer: _components_MusicCdsContainer__WEBPACK_IMPORTED_MODULE_1__["default"]
   },
   data: function data() {
     return {};
@@ -6540,7 +6541,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".albumContainer[data-v-058e07cb] {\n  background-color: rgba(0, 0, 0, 0.2);\n}", ""]);
+exports.push([module.i, "*[data-v-058e07cb] {\n  color: white;\n}\n.albumContainer[data-v-058e07cb] {\n  background-color: rgba(0, 0, 0, 0.2);\n}\n.albumContainer .description[data-v-058e07cb] {\n  height: 180px;\n  overflow-y: auto;\n}\n\n/* width */\n.description[data-v-058e07cb]::-webkit-scrollbar {\n  width: 11px;\n}\n\n/* Track */\n.description[data-v-058e07cb]::-webkit-scrollbar-track {\n  box-shadow: inset 0 0 5px #CBCBC9;\n  border-radius: 10px;\n}\n\n/* Handle */\n.description[data-v-058e07cb]::-webkit-scrollbar-thumb {\n  background: #DB1E29;\n  border-radius: 10px;\n}\n\n/* Handle on hover */\n.description[data-v-058e07cb]::-webkit-scrollbar-thumb:hover {\n  background: black;\n}", ""]);
 
 // exports
 
@@ -6597,7 +6598,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".music-container[data-v-b3c5cf30] {\n  height: 100vh;\n  background: #DB1E29;\n  background: radial-gradient(circle, #DB1E29 -70%, black 100%);\n}", ""]);
+exports.push([module.i, "*[data-v-b3c5cf30] {\n  color: white;\n}\n.music-container[data-v-b3c5cf30] {\n  background: #DB1E29;\n  background: radial-gradient(circle, #DB1E29 -70%, black 100%);\n}", ""]);
 
 // exports
 
@@ -38172,11 +38173,15 @@ var render = function() {
       }),
       _vm._v(" "),
       _c("div", { staticClass: "card-body" }, [
-        _c("h5", { staticClass: "card-title" }, [
+        _c("h4", { staticClass: "card-title" }, [
           _vm._v(_vm._s(this.cd.album))
         ]),
         _vm._v(" "),
-        _c("p", { staticClass: "card-text" }, [_vm._v(_vm._s(this.cd.anno))])
+        _c("p", { staticClass: "card-text" }, [_vm._v(_vm._s(this.cd.anno))]),
+        _vm._v(" "),
+        _c("p", { staticClass: "card-text description" }, [
+          _vm._v(_vm._s(this.cd.descrizione))
+        ])
       ])
     ]
   )

@@ -21,8 +21,8 @@
 
 <style scoped lang="scss" >
   @import '../../sass/variables';
+  @import '../../sass/general';
   .music-container {
-    height: 100vh;
-    @include  colorGradient( #DB1E29, black);
+    @include  colorGradient( $primary-color, $secondary-color);
   }
 </style>
