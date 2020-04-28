@@ -29,6 +29,7 @@
 
 <style lang="scss" scoped>
     .music-cds-container {
+        margin-top: 100px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;

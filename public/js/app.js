@@ -6541,7 +6541,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "*[data-v-058e07cb] {\n  color: white;\n}\n.albumContainer[data-v-058e07cb] {\n  background-color: rgba(0, 0, 0, 0.2);\n}\n.albumContainer .description[data-v-058e07cb] {\n  height: 180px;\n  overflow-y: auto;\n}\n\n/* width */\n.description[data-v-058e07cb]::-webkit-scrollbar {\n  width: 11px;\n}\n\n/* Track */\n.description[data-v-058e07cb]::-webkit-scrollbar-track {\n  box-shadow: inset 0 0 5px #CBCBC9;\n  border-radius: 10px;\n}\n\n/* Handle */\n.description[data-v-058e07cb]::-webkit-scrollbar-thumb {\n  background: #DB1E29;\n  border-radius: 10px;\n}\n\n/* Handle on hover */\n.description[data-v-058e07cb]::-webkit-scrollbar-thumb:hover {\n  background: black;\n}", ""]);
+exports.push([module.i, "*[data-v-058e07cb] {\n  color: white;\n}\n.albumContainer[data-v-058e07cb] {\n  padding: 10px;\n  background-color: rgba(0, 0, 0, 0.4);\n}\n.albumContainer .description[data-v-058e07cb] {\n  padding: 5px;\n  height: 180px;\n  overflow-y: auto;\n}\n\n/* width */\n.description[data-v-058e07cb]::-webkit-scrollbar {\n  width: 11px;\n}\n\n/* Track */\n.description[data-v-058e07cb]::-webkit-scrollbar-track {\n  box-shadow: inset 0 0 5px #CBCBC9;\n  border-radius: 10px;\n}\n\n/* Handle */\n.description[data-v-058e07cb]::-webkit-scrollbar-thumb {\n  background: #DB1E29;\n  border-radius: 10px;\n}\n\n/* Handle on hover */\n.description[data-v-058e07cb]::-webkit-scrollbar-thumb:hover {\n  background: black;\n}", ""]);
 
 // exports
 
@@ -6560,7 +6560,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".music-cds-container[data-v-dde56b4e] {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n}", ""]);
+exports.push([module.i, ".music-cds-container[data-v-dde56b4e] {\n  margin-top: 100px;\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: space-between;\n}", ""]);
 
 // exports
 
@@ -6579,7 +6579,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".music-header[data-v-353eeef7] {\n  background-color: rgba(0, 0, 0, 0.2);\n  height: 80px;\n  line-height: 80px;\n  font-family: \"Kaushan Script\", cursive;\n}\n.music-header img[data-v-353eeef7] {\n  height: 60px;\n}", ""]);
+exports.push([module.i, ".music-header[data-v-353eeef7] {\n  background-color: rgba(0, 0, 0, 0.4);\n  height: 80px;\n  line-height: 80px;\n  font-family: \"Kaushan Script\", cursive;\n  position: fixed;\n  top: 0;\n  width: 100%;\n  z-index: 1000;\n}\n.music-header img[data-v-353eeef7] {\n  height: 60px;\n}", ""]);
 
 // exports
 

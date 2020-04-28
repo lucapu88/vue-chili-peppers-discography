@@ -21,6 +21,10 @@
         height: $headerHeight;
         line-height: $headerHeight;
         font-family: 'Kaushan Script', cursive;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
         img {
             height: 60px;
         }

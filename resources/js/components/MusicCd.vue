@@ -20,8 +20,10 @@
      @import '../../sass/variables';
      @import '../../sass/general';
     .albumContainer {
+        padding: 10px;
         @include background-rgba;
         .description {
+            padding: 5px;
             height: 180px;
             overflow-y: auto;
         }
